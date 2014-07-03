@@ -4,7 +4,6 @@
 "use strict";
 
 togglbutton.render('section.ticket:not(.disabled):not(.toggl)', {observe: true}, function (elem) {
-	console.log(elem);
 	var button,
 			link,
 			titleElem = $('div.ticket.section input[name="subject"]', elem),
@@ -20,7 +19,8 @@ togglbutton.render('section.ticket:not(.disabled):not(.toggl)', {observe: true},
 	link = togglbutton.createTimerLink({
 		className: 'zendesk',
 		description: titleElem.value,
-		projectName: projectName && projectName.split(' -').shift()
+		projectName: projectName && projectName.split(' -').shift(),
+		tags: ['zendesk']
 	});
 	button.appendChild(link);
 

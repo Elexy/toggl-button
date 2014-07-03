@@ -23,6 +23,7 @@ Add Toggl one-click time tracking to popular web tools.
   - [YouTrack (InCloud)][19]
   - [CapsuleCRM][20]
   - [Xero][21]
+  - [Zendesk][22]
 
 ## Installing from the Web Store
 
@@ -67,4 +68,5 @@ Want to contribute? Great! Just fork the project, make your changes and open a [
 [19]: http://myjetbrains.com/
 [20]: http://www.capsulecrm.com/
 [21]: https://www.xero.com/
+[22]: https://www.zendesk.com/
 [99]: https://github.com/toggl/toggl-button/pulls
